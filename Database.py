@@ -1,6 +1,6 @@
 import datetime
 import mysql.connector
-#import test as tst
+#import test as tst 
 
 db = mysql.connector.connect(user='root',host='localhost',password='saths@18',database='stockmanagement')
 c = db.cursor()
@@ -143,3 +143,4 @@ print(type(e))
 print(e)
 '''
 #print(insert_prod('fan',10,5000))
+
